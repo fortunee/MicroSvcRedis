@@ -1,5 +1,5 @@
 # Learning and Practicing
-Code examples from ramp up on either new technologies/ideas worth playing around with.
+Code examples from ramp up on new technologies/ideas that are worth playing around with.
 
 ## Tools
 1.  [Node Redis](https://github.com/NodeRedis/node_redis)
