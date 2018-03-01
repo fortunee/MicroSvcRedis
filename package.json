@@ -1,0 +1,25 @@
+{
+  "name": "RESTMicroService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:micro": "micro micro/index.js",
+    "start:redis:cache": "node redisCache/app.js",
+    "start:redis:pub": "node redisPubSub/server1.js",
+    "start:redis:sub": "node redisPubSub/server2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "level": "^3.0.0",
+    "micro": "^9.1.0",
+    "redis": "^2.8.0",
+    "response-time": "^2.3.2",
+    "then-levelup": "^1.0.2"
+  }
+}
